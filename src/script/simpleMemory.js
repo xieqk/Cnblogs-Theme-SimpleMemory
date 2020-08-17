@@ -378,10 +378,16 @@ function init() {
     var url = window.location.href,tmp = [];
     tmp = url.split("/");
     var user = tmp[3];
-    var navListHtml = '<li><a href="https://www.cnblogs.com/'+user+'/" target="_self"><i class="iconfont icon-homepage_fill"></i>首页</a></li>' +
+    var navListHtml = '<li><a href="https://www.cnblogs.com/'+user+'/" target="_self"><i class="iconfont icon-homepage_fill"></i>博客园首页</a></li>' +
+        '<li><a href="https://xieqiaokang.com/" target="_self"><i class="iconfont icon-gongzhonghao_"></i>个人主页</a></li>' +
+        '<li><a href="https://blog.xieqiaokang.com/" target="_self"><i class="iconfont icon-weibiaoti22"></i>个人博客</a></li>' +
+        '<li><a href="https://gallery.xieqiaokang.com/" target="_self"><i class="iconfont icon-picture_fill"></i>个人相册</a></li>' +
         '<li><a href="https://msg.cnblogs.com/send/'+user+'" target="_blank"><i class="iconfont icon-zhifeiji"></i>联系</a></li>' +
         '<li><a href="javascript:void(0)" onclick="$(\'#blog_nav_rss\').trigger(\'click\');" data-rss="https://www.cnblogs.com/'+user+'/rss/"><i class="iconfont icon-qinmifu"></i>订阅</a></li>' +
-        '<li><a href="https://i.cnblogs.com/" target="_blank"><i class="iconfont icon-setup_fill"></i>管理</a></li>';
+        '<li><a href="https://i.cnblogs.com/" target="_blank"><i class="iconfont icon-setup_fill"></i>管理</a></li>' +
+        '<li><a href="https://github.com/xieqk/" target="_blank"><i class="iconfont icon-github"></i>Github</a></li>' +
+        '<li><a href="https://space.bilibili.com/362548791" target="_blank"><i class="iconfont icon-bilibili"></i>歪西歪小哥哥</a></li>' +
+        '<li><a href="https://space.bilibili.com/20393836" target="_blank"><i class="iconfont icon-bilibili"></i>JacobXie丶IU</a></li>';
 
     var menuNavList = window.cnblogsConfig.menuNavList;
     if (menuNavList.length > 0) {
