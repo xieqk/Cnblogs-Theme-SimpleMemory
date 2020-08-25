@@ -379,6 +379,7 @@ function init() {
     tmp = url.split("/");
     var user = tmp[3];
     var navListHtml = '<li><a href="https://www.cnblogs.com/'+user+'/" target="_self"><i class="iconfont icon-homepage_fill"></i>博客园首页</a></li>' +
+        '<li><a href="https://nav.xieqiaokang.com/" target="_blank"><i class="iconfont icon-enterinto_fill"></i>我的导航</a></li>' +
         '<li><a href="https://xieqiaokang.com/" target="_blank"><i class="iconfont icon-gongzhonghao_"></i>个人主页</a></li>' +
         '<li><a href="https://blog.xieqiaokang.com/" target="_blank"><i class="iconfont icon-weibiaoti22"></i>个人博客</a></li>' +
         '<li><a href="https://gallery.xieqiaokang.com/" target="_blank"><i class="iconfont icon-picture_fill"></i>个人相册</a></li>' +
